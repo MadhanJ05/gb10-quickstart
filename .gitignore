@@ -1,0 +1,15 @@
+# Local-only files (never commit)
+CLAUDE.md
+.env
+.env.*
+logs/
+*.log
+
+# Created when 20_alchemi_env.sh runs inside the kit folder, or by local tests
+.venv/
+nvalchemi-toolkit/
+.claude/
+_test_env*/
+
+__pycache__/
+*.pyc
